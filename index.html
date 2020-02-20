@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
+      
+    <!-- Link to CSS -->  
+      <link rel="stylesheet" href="styles.css" />
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,60 +17,56 @@
   <body>
     <div id="sec_lan">
         <h1><strong>Alex Bardsley</strong></h1>
-        <h2>Seminary Instructor</h2>
-        <h3>Book of Mormon</h3>  
-        <h4>My objective is to help youth and young adults understand and rely on the teachings and Atonement of Jesus Christ.</h4>
-    </div>      
-    <div id="sec_nav">  
-        <ul>
-            <li><a href="#sec_abo">About Me</a></li>
-            <li>Lessons</li>
-            <li><a href="#sec_exp">Announcements</a></li>
-            <li>Make-up Work</li> 
-            <li><a href="Contact.html"target="_blank">Contact Me</a></li>
-        </ul>
-    </div>    
-        <!-- Start About Me Section -->
-    <div id="sec_abo">  
-        <h1>About Me</h1>
-        <img src=/img/bio.png.JPG alt="Alex Bardsley Headshot" height="300" width="auto" />
-    </div>    
-    <p>
-        My name is Alex Bardsley. I am so grateful to have your student in seminary. My wife Sarah and I met in 2014 and were married in the Salt Lake Temple May 29th, 2015. Our two sons are Benson and Owen. I have come to learn for myself that God lives. Jesus is the Christ. He is my Savior and Redeemer. "We talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins 2 Nephi 25:26."     
-    </p>        
-        <!-- End About Me Section --> 
-     <br>
-     <br>
-     <br>
-            
-        <!-- Start Lessons Section -->
-    <h1>Lessons</h1>
-    <h2>Book of Mormon</h2>
-    <h3>1 Nephi 8, <br /><span>Lehi's Vision of the Tree of Life</span></h3>
-    <p>January 23rd-24th</p>
-    <p class="par_exp">
-    Lehi's dream is all about a father who is trying to reach two of his wayward sons. President Boyd K. Packer taught the following: “You may think that Lehi’s dream or vision has no special meaning for you, but it does. You are in it; all of us are in it.” ~President Boyd K. Packer (Jan. 16th, ’07) As you search 1 Nephi chapter 8, I invite you to look for where you are in Lehi's dream. Try to imagine yourself as a loving parent whose son or daughter has lost their way. What truths do you discover that could help you reach out to those that are lost?
-    </p>
-		
-    <!-- End Experience Section -->  
-    <br>
-    <br>
-    <br>
-        
-    <!-- Start Announcements Section -->
-    <div id="sec_exp">
-        <h1><a name="Announcements">Announcements</a></h1>
-        <p>
-          All students are expected to have a physical set of scriptures in class. Please encourage your student to study their scriptures on their own at least ten minutes a day. Please encourage students to study from the Book of Mormon as that is our book of emphasis for spring 2020 semester. 
-        </p>
-    </div>  
+        <h2><strong>Seminary Instructor</strong></h2>
+        <h3 id="nav_contact"><strong><a href="Contact.html"target="_blank">Contact Me</a></strong></h3> 
+    </div>   
+                
+    <!-- Column List -->             
+           
+    <div class="container">
+        <div class="row">
+            <div class="col"><li><a href="#sec_abo">About Me</a></li></div>
+            <div class="col"><li>Lessons</li></div>
+            <div class="w-100"></div>
+            <div class="col"><li><a href="#sec_exp">Announcements</a></li></div>
+            <div class="col"> <li>Make-up Work</li></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <!-- Start About Me Section -->
+                <div id="sec_abo">  
+                    <h1>About Me</h1>
+                    <img src="img/bio.jpg" alt="Alex Bardsley Headshot" height="300" width="auto" />
+                </div>    
+                <p>
+                    My name is Alex Bardsley. I am so grateful to have your student in seminary. My wife Sarah and I met in 2014 and were married in the Salt Lake Temple May 29th, 2015. Our two sons are Benson and Owen. I have come to learn for myself that God lives. Jesus is the Christ. He is my Savior and Redeemer. "We talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins 2 Nephi 25:26."     
+                </p>        
+                <!-- End About Me Section --> 
+                 <br>
+                 <br>
+                 <br>
 
-		<!-- End Experience Section -->
-          
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+                <!-- Start Lessons Section --> 
+                <div id="sec_lessons">
+                <h1>Lessons</h1>
+                <h2>Book of Mormon</h2>
+                <h3>1 Nephi 8, <br /><span>Lehi's Vision of the Tree of Life</span></h3>
+                <p>January 23rd-24th</p>
+                <p class="par_exp">
+                Lehi's dream is all about a father who is trying to reach two of his wayward sons. President Boyd K. Packer taught the following: “You may think that Lehi’s dream or vision has no special meaning for you, but it does. You are in it; all of us are in it.” ~President Boyd K. Packer (Jan. 16th, ’07) As you search 1 Nephi chapter 8, I invite you to look for where you are in Lehi's dream. Try to imagine yourself as a loving parent whose son or daughter has lost their way. What truths do you discover that could help you reach out to those that are lost?
+                </p>
+                </div> 
+                
+                <!-- Start Announcements Section -->
+                <div id="sec_ann">
+                    <h1><a name="Announcements">Announcements</a></h1>
+                    <p>
+                    All students are expected to have a physical set of scriptures in class. Please encourage your student to study their scriptures on their own at least ten minutes a day. Please encourage students to study from the Book of Mormon as that is our book of emphasis for spring 2020 semester. 
+                    </p>
+                </div>  
+            </div>
+        </div>  
+    </div>  
+        
+    </body>
 </html>
