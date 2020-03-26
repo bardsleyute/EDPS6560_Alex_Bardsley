@@ -1,5 +1,5 @@
  *{
-    color: teal;
+    color: lightblue;
           }
 
 p {
@@ -19,6 +19,27 @@ p {
     text-align: center;
 }
 
+#sec_lan h3 {
+    text-align: center;
+}
+
+#banner {
+    background-image: url("jesus.jpg");
+    background-size: cover;
+    background position: bottom-center;
+    height: 700px;
+    width: 100%;
+}
+
+#banner .content h1 {
+    border: 3px solid lightblue;
+    position: relative;
+    top: 20px;
+    width: 400px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
 h1 {
     font-size: 90px;
 }
@@ -29,12 +50,20 @@ h1 {
 
 #sec_abo h1 {
     text-align: left;
+    background-color: #59320F;
 }
 
 #sec_lessons h1,h3 {
     text-align: left;
+    background-color: #59320F;
 }
 
 #sec_ann h1 {
     text-align: left;
+    background-color: #59320F;
+}
+
+#sec_make-up h1 {
+    text-align: left;
+    background-color: #59320F;
 }
